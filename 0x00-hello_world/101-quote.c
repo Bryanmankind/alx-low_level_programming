@@ -6,7 +6,6 @@
  *   *
  *
  *    * Return: Always 1 (Success)
- *
  */
 
 int main(void)
