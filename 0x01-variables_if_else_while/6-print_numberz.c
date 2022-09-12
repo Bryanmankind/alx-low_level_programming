@@ -12,6 +12,6 @@ int main(void)
 	{
 		purchar("%d", i);
 	}
-	putchar('\n');
+	putchr('\n');
 	return (0);
 }
