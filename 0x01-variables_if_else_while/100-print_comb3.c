@@ -13,18 +13,24 @@ int main(void)
 
 	while (e < 58)
 	{
-		if (e != i && e < i)
+		i = 48;
+		while (i < 58)
 		{
-			putchar(e);
-			putchar(i);
-			if (i == 57 && e == 56)
+			if (e != i && e < i)
 			{
-				break;
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
+			i++;
 		}
-		i++;
+		e++
 	}
-	e++
+	putchar('\n');
+	return (0);
 }
