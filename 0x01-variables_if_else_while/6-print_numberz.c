@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	for  (i = 0; i < 10; i++)
 	{
-		purchar("%d", i);
+		putchr(i);
 	}
 	putchr('\n');
 	return (0);
