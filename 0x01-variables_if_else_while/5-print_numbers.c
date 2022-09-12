@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - print the digit number of base 10
+ * main - Prints numbers from 0 to 9.
  *
- * return always 0
+ * return always 0 (success)
  */
 
 int main(void)
