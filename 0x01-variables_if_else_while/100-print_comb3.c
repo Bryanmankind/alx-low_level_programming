@@ -6,30 +6,23 @@
  */
 int main(void)
 {
-	int i, e;
+	int a, b;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	a = '0';
+	while (a < '9')
 	{
-		i = 48;
-		while (i < 58)
+		b = a + 1;
+		while (b <= '9')
 		{
-			if (e != i && e < i)
-			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
-				{
-					break;
-				}
+			putchar(a);
+			putchar(b++);
+			if (a != '8')
+			{ 
 				putchar(',');
 				putchar(' ');
 			}
-			i++;
 		}
-		e++
+		a++;
 	}
 	putchar('\n');
 	return (0);
