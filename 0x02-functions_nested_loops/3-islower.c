@@ -4,7 +4,9 @@
 /**
  * int _islower - picks out the olwercase
  *
- * return: void.
+ *@c: character
+
+ * return: 1 if lower, 0 otherwise.
  */
 
 int _islower(int c)
