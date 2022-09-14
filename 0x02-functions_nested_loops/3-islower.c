@@ -2,16 +2,16 @@
 #include "main.h"
 
 /**
- * int _islower - picks out the olwercase
+ * _islower: - picks out the lowercase
  *
- *@c: character
-
+ * @c: character
+ *
  * return: 1 if lower, 0 otherwise.
  */
 
-int _islower(int c)
+int _islower(int alph)
 {
-	if (c >= 'a' && c <= 'z')
+	if (alph >= 'a' && alph <= 'z')
 	{
 		return (1);
 	}
