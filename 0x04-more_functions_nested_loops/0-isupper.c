@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 5 && c <= 30)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
