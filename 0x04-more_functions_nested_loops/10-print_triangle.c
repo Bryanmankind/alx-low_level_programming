@@ -1,31 +1,32 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * main - entry point for function
+ * print_triangle - prints a triangle
  *
- * Return: always 0
+ *  @size: sizexsize right triangle
+ *
+ * Return: always void
  */
-int main(void)
-{
-	int i;
 
-	i = 1;
-	while (i <= 100)
+void print_triangle(int size)
+{
+	int i, n, spaceC;
+
+	if (size < 1)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
-			printf("FizzBuzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
-		else if (i % 5 == 0)
-			printf("Buzz");
-		else
-			printf("%d", i);
-		if (i == 100)
-			break;
-		putchar(' ');
+		_putchar('\n');
+		return;
+	}
+	i = 0;
+	spaceC = size - 1;
+	while (i < size)
+	{
+		n = 0;
+		while (n < size)
+			_putchar((n++ < spaceC) ? ' ' : '#');
+		_putchar('\n');
+		spaceC--;
 		i++;
 	}
-	putchar('\n');
-	return (0);
 }
