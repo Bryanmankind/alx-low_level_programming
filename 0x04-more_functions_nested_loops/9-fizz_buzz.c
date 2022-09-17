@@ -1,29 +1,31 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_square - prints an nxn square
+ * main - entry point for function
  *
- * @size: length & width of square
- *
- * Return: always void
+ * Return: always 0
  */
 
-void print_square(int size)
+int main(void)
 {
-	int i, n;
+	int i,
 
-	i = 0;
-	while (size > 0 && i < size)
+	i = 1;
+	while (i <= 100)
 	{
-		n = 0;
-		while (n < size)
-		{
-			_putchar('#');
-			n++;
-		}
-		_putchar('\n');
+		if ((i % 3 == 0) && (i % 5 == 0))
+			printf("FizzBuzz");
+		else if (i % 3 == 0)
+			printf("Fizz");
+		else if (i % 5 == 0)
+			printf("Buzz");
+		else
+			printf("%d", i);
+		if (i == 100)
+			break;
+		putchar(' ');
 		i++;
 	}
-	if (size <= 0)
-		_putchar('\n');
+	putchar('\n');
+	return (0);
 }
