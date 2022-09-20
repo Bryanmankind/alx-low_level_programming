@@ -6,8 +6,8 @@
  *
  * @s: input string
  * @len: length of the string
- * @mid: middle of string
- * @temp: tempural variable
+ * 
+ * @tmp: tempural variable
  *
  * return: void
  */
