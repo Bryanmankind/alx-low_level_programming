@@ -4,10 +4,7 @@
 /**
  * rev_string - Write a function that reverses a string
  *
- * @s: input string
- * @len: length of the string
- * 
- * @tmp: tempural variable
+ * @s: input string 
  *
  * return: void
  */
