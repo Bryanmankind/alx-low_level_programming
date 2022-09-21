@@ -4,8 +4,7 @@
 /**
  * rev_string - Write a function that reverses a string
  *
- * @s:input string. 
- *
+ * @s:input string.
  * return: void
  */
 
