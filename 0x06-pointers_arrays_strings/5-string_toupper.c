@@ -4,7 +4,7 @@
  * string_toupper - changes lowercase to uppercase.
  * @s: input string.
  *
- * return: return string.
+ * Return: return string.
  */
 
 char *string_toupper(char *s)
