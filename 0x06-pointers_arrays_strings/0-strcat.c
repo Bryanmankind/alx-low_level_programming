@@ -5,7 +5,7 @@
  * @dest: first string 
  * @src: second string.
  *
- * Returns: String.
+ * Return: String.
  */
 
 char *_strcat(char *dest, char *src)
@@ -23,4 +23,3 @@ char *_strcat(char *dest, char *src)
 	dest[len] = '\0';
 	return (dest);
 }
-
