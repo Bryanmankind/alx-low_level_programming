@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- * 
  * main - Prints the multiplication of two numbers, followed by a new line
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
