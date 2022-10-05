@@ -3,7 +3,7 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
- *
+ * @str: string input
  * Return: 0.
  */
 
